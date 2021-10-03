@@ -1,0 +1,16 @@
+{
+  "name": "express_static_site",
+  "version": "1.0.0",
+  "description": "A node static site using express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lewis Sheeran",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13",
+    "pug": "^3.0.2"
+  }
+}
