@@ -14,25 +14,23 @@ html(lang="en" dir="ltr")
       .sidebar-info-box
         br
         .thumbnail-box
-          img.thumbnail(src='https://placehold.it/550x350', alt='')
+          a(href='/')
+            img.thumbnail(src='/static/images/me.jpg', alt='A picture of Lewis Sheeran')
         .dev-intro-box
 
-          //- Replace with your name
-          h5 Name
+          h5 Lewis Sheeran
 
-          //- Replace with description of who you are, what you do, and why you are so awesome
-          p Description
+          p I have had a successful career in tech sales and business development, mostly in startup and medium-sized companies. I'm on a journey toward a career change in web development. 
 
-          //- Add path from your '/about' route handler to the href below
-          a(href='') Learn More &rarr;
+        .about-me
+          a(href='/about') More about me! &rarr;
 
     .wrapper
       .header
         .header-info-box
           button#menu-icon.menu-icon(type='button' data-toggle='my-info')
 
-          //- Replace with your name — this is for the mobile layout
-          span Name
+          span Lewis Sheeran
 
       block content
 

@@ -1,20 +1,14 @@
-const express = require('express');
+const express = require('express'); //importing express
 const app = express();
-const jsonData = require('./data.json')
 
-app.set('view engine', 'pug')
-express.static('/public')
+// const router = express.Router();
+const { projects } = require('./data/data.json'); //importing data.json file containing all project related data
+app.set('view engine', 'pug') //setting PUG for templating
+app.use('/static', express.static('public')); //setting the public folder as static to be referenced throughout this app
+const routes = require('./routes') //routes are set up in a seperate folder, here i'm importing the routes from that file
 
-//Index page route
-app.get('/', (req, res) => {
-  res.send("this is a test")
-  console.log("one")
-})
+app.use(routes); //Here I'm getting express to use the routes i've created.
 
-//About page route
-app.get('/about', (req, res) => {
-  res.send("this is a second test")
-})
-
-
-app.listen(3000);
+app.listen(3000, () => { //Using port 3000 to run this project and logging a message to the console to confirm so.
+  console.log('The application is running localhost:3000')
+});

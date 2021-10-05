@@ -1,0 +1,98 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Phrase Guessing Game" ,
+      "description": "This application tests your ability to guess a phrase. Make five mistakes and you will lose!",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link": "https://github.com/SheeranJL?tab=repositories",
+      "github_link": "https://github.com/SheeranJL/Phrase_guessing_game",
+      "image_urls": {
+        "thumb": "/static/images/main_word_guessing_game.png",
+        "profile_image": [
+            "/static/images/word_guessing_game_projectpageone.png",
+            "/static/images/word_guessing_game_projectpagethree.png",
+            "/static/images/word_guessing_game_projectpagetwo.png"
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "project_name": "Responsive Form Design" ,
+      "description": "This form utilises clever use of HTML form fields and CSS media styles to produce a device-friendly form",
+      "technologies": ["HTML", "CSS"],
+      "live_link": "https://github.com/SheeranJL?tab=repositories",
+      "github_link": "https://github.com/SheeranJL/Responsive_Form_Design",
+      "image_urls": {
+        "thumb": "/static/images/responsive_form.PNG",
+        "profile_image": [
+            "/static/images/responsive_form.PNG",
+            "/static/images/responsive_form_profile_1.PNG"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "project_name": "Public API - User Directory" ,
+      "description": "This application draws fake people data from a public API and displays 9 people on the screen. When you click on a user, a modal displays which lists more information about that person. Each page refresh displays different users",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link": "https://github.com/SheeranJL?tab=repositories",
+      "github_link": "https://github.com/SheeranJL/Public_API_Application",
+      "image_urls": {
+        "thumb": "/static/images/employee_directory.PNG",
+        "profile_image": [
+            "/static/images/employee_directory_profile.PNG",
+            "/static/images/employee_directory_profile_1.PNG"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "project_name": "Data Pagnation and Filtering" ,
+      "description": "This application uses JavaScript to filter through users based on their name, and navigate through users via page buttons.",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link": "https://github.com/SheeranJL?tab=repositories",
+      "github_link": "https://github.com/SheeranJL/Data-Pagination-and-Filtering",
+      "image_urls": {
+        "thumb": "/static/images/data_pagnation_filtering.PNG",
+        "profile_image": [
+            "/static/images/data_pagnation_filtering.PNG",
+            "/static/images/data_pagnation_filtering_profile.PNG",
+            "/static/images/data_pagnation_filtering_profile_1.PNG"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "project_name": "Random Quote Generator" ,
+      "description": "Using JavaScript, this application displays a random quote every 10 seconds, or when a user click the button to call a new quote. A random background color will display with each new quote",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link": "https://github.com/SheeranJL?tab=repositories",
+      "github_link": "https://github.com/SheeranJL/Project-4---Random-Quote-Generator",
+      "image_urls": {
+        "thumb": "/static/images/random_quote_generator.PNG",
+        "profile_image": [
+            "/static/images/random_quote_generator.PNG",
+            "/static/images/random_quote_generator_profile.PNG",
+            "/static/images/random_quote_generator_profile_2.PNG"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "project_name": "Responsive Regustration Form Design" ,
+      "description": "This form validates appropriate user data for each field in real-time and manipulates the DOM (including drop-down selection options) depending on user selection. The form will not submit unless all required input is completed.",
+      "technologies": ["Javascript", "HTML", "CSS"],
+      "live_link": "https://github.com/SheeranJL?tab=repositories",
+      "github_link": "https://github.com/SheeranJL/Responsive_registration_form",
+      "image_urls": {
+        "thumb": "/static/images/registration_form.PNG",
+        "profile_image": [
+            "/static/images/responsive_form_1.PNG",
+            "/static/images/registration_form_2.PNG",
+            "/static/images/registration_form_3.PNG"
+        ]
+      }
+    }
+  ]
+}
