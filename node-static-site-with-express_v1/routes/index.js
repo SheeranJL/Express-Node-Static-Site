@@ -21,9 +21,11 @@ router.get('/project/:id', (req, res, next) => {
   } else { //else, if there is no project that exists with a given id, display an error message.
     const error = new Error();
     error.status = 404;
-    error.message = `The project you've requested does not exist! This error is known as a ${error.status} error. Please try viewing the project again. If this page reoccurs, please get in touch so we can fix it! The below information is used to assist developers.`
-    next(error); //displaying the error
+    error.message = `The project you've requested does not exist! This error is known as a ${error.status} error.`
+    next(error.message);
   }
 })
+
+
 
 module.exports = router //exporting these routes to be used in other config files via importing

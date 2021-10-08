@@ -2,7 +2,6 @@ const express = require('express'); //importing express
 const app = express();
 
 // const router = express.Router();
-const { projects } = require('./data/data.json'); //importing data.json file containing all project related data
 app.set('view engine', 'pug') //setting PUG for templating
 app.use('/static', express.static('public')); //setting the public folder as static to be referenced throughout this app
 const routes = require('./routes') //routes are set up in a seperate folder, here i'm importing the routes from that file
