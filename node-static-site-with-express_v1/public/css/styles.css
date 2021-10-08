@@ -197,6 +197,26 @@ nav a span {
   border-left: 1px solid #0a0a0a;
 }
 
+.not-found-stack {
+  color: white;
+}
+
+.errornotfound {
+  color: red;
+  text-align: center;
+}
+
+.error-p {
+  color: white;
+  text-align: center;
+}
+
+.home {
+  text-align: center;
+  color: red;
+  list-style-type: none;
+}
+
 .header span {
   display: inline-block;
   font-weight: bold;

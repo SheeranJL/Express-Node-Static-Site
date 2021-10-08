@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1.errornotfound= `Oh no! ${err.status} error`
+  h2.errornotfound= `Error status code: ${err.status} - Server Error`
+  p.error-p= `The server was unable to fulfill your request. Please go back or contact website owner to investigate.`
+  
+  ul
+    a.home(href=`/`) Click go to back
+
+  div.not-found-stack
+    hr
+    pre #{err.stack}

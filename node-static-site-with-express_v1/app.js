@@ -8,6 +8,8 @@ const routes = require('./routes') //routes are set up in a seperate folder, her
 
 app.use(routes); //Here I'm getting express to use the routes i've created.
 
+
+
 app.listen(3000, () => { //Using port 3000 to run this project and logging a message to the console to confirm so.
   console.log('The application is running localhost:3000')
 });
